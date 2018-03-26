@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.carousel-inner .item img
+{
+	width:100%;
+}
+
+.input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 100%;
+}
+
+body
+{
+	max-width:1000px;
+	margin:auto;
+	position:relative;
+	
+}

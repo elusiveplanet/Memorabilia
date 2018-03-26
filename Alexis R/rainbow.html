@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Rainbow</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <!--<link rel="stylesheet" type="text/css" href="rainbow.css"/>-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<button class="button" id = "a" onclick="a()">Rainbows, Rainbows, Rainbows!</button>
+
+<script>
+function a() {
+	if (document.getElementById("a").innerHTML.equals("Rainbows, Rainbows, Rainbows!")
+		document.getElementById("a").innerHTML = "Not Rainbows, Rainbows, Rainbows!";
+	else document.getElementById("a").innerHTML = "Rainbows, Rainbows, Rainbows!";
+	
+}
+</script>
+
+</body>
+</html>
